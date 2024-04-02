@@ -6,9 +6,16 @@
     <title>index</title>
 </head>
 <body>
-    <div>
-      <a href="../">Innlogging:</a>
-      <a href="regBruker.php">Registrer ny bruker</a>
-    </div>
+
 </body>
 </html>
+   <?php
+     
+   // include("./db_kobling.php");
+    //$result = $conn->query("SELECT * FROM bruker");
+    //while ($row = mysqli_fetch_assoc($result)){
+      //echo $row["navn_bruker"];
+    //}
+    header("Location: ./brukerSider/sakInputSide.php");
+    exit
+   ?>

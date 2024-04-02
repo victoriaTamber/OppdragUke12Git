@@ -10,4 +10,4 @@
         echo "Connection failed!";
         die();        
     }
-
+?>
