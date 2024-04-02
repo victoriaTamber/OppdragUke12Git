@@ -7,7 +7,7 @@
 </head>
 <body>
     <div>
-      <a href="inlogging.php">Innlogging:</a>
+      <a href="../">Innlogging:</a>
       <a href="regBruker.php">Registrer ny bruker</a>
     </div>
 </body>

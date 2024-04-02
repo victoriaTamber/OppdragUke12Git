@@ -6,8 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+  <div id="wrapper">
     <div>
         <a href="regBruker.php">Ny brukerregistrering</a>
     </div>
+
+  </div>  
+    
 </body>
 </html>
