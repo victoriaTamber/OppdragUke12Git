@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Fjell Bedriftløsninger sin ticketsystem </h1>
+    <h3>Sett inn henvedelse</h3>
 <form action="sakInputSide.php">
   <label for="navn_brukerInput">navn:</label>
   <input type="text" id="navn" name="navn"><br><br>
@@ -23,7 +24,9 @@
   </select> <br> <br>
   <button type="submit">Send inn</button>
  
-</form>
+ 
+</form> 
+<a href="sakStatusSide.php"><button>Status på henvedelse</button></a>
 </body>
 </html>
 
