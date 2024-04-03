@@ -17,5 +17,5 @@
       //echo $row["navn_bruker"];
     //}
     header("Location: ./brukerSider/sakInputSide.php");
-    exit
+    exit();
    ?>
