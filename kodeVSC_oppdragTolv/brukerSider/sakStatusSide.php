@@ -8,7 +8,10 @@
 <body>
 <h1>Fjell Bedriftløsninger sin ticketsystem </h1>
     <h3>skjekk status på henvedelse</h3>
-    <label for="epost_brukerInput">Skriv inn sak id</label>
-    <input type="email" id="epost_brukerInput" name="epost_brukerInput"><br><br>
+    <form action="../sakstatus.php" method="get">
+        <label for="sak_idInput">Sett inn sak ID: </label>
+        <input type="text" id="sak_idInput" name="sak_idInput" required><br><br>
+        <button type="submit">Skjekk status</button>
+    </form>
 </body>
 </html>

@@ -22,7 +22,7 @@ if(empty($navn_input)){
     echo("location: inlogging.php?error=Case description is required!");
     exit();
 
-  }
+  };
 
 
 
